@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>netflix signup</title>
+    <link rel="stylesheet" type="text/css" href="signup.css">
+</head>
+<body>
+    <nav>
+        <img src="https://download.logo.wine/logo/Netflix/Netflix-Logo.wine.png" alt="" class="logo" style="height: 150px; width: 150px;">
+
+    </nav>
+    <div class="form-wrapper">
+        <h2>Sign In</h2>
+        <form method="post" action="" enctype="multipart/form-data" onsubmit="return checkform(this);">
+            <div class="form-control">
+                <input type="text" id="un">
+                <label  style="margin-left: 90px;">Email or phone number</label>
+            </div>
+            <div class="form-control">
+                <input type="password" id="pw">
+                <label style="margin-right: 100px;">password</label>
+            </div>
+            <button type="submit">Sign In</button>
+            <h3>OR</h3>
+             <button style="background-color: transparent;backdrop-filter: blur(25px);border: 1px solid white;">Use a sign-in code</button>
+             <div class="form-help">
+                <div class="remember-me">
+                    <input type="checkbox" id="remember-me">
+                    <label for="">Remember me</label>
+                </div>
+                <a href="#">Need help?</a>
+             </div>
+        </form>
+       <p>New to netflix?<a href="#">Sign-up now</a></p>
+       <small>This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.
+
+       </small>
+       <a href="#" style="color: blue;">Learn more..</a>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
